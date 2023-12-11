@@ -71,10 +71,9 @@
     <thead class="thead thead-dark">
         <tr>
             <th scope="col">Name</th>
-            <th scope="col">Admission_Number</th>
-            <th scope="col">Task</th>
-            <th scope="col">Date</th>
-            <th scope="col">Status</th>
+            <th scope="col">Email</th>
+            <th scope="col">Subject</th>
+            <th scope="col">Message</th>
             <th scope="col">Action</th>
         </tr>
     </thead>
@@ -82,11 +81,10 @@
                 {% for item_key,item in data.items() %}
                     <tr>
                         <td>{{ item.name }}</td>
-                        <td>{{ item.admission_number }}</td>
-                        <td>{{ item.task }}</td>
-                        <td>{{ item.date }}</td>
-                        <td>{{ item.status }}</td>
-                        <td>
+                        <td>{{ item.email }}</td>
+                        <td>{{ item.subject }}</td>
+                        <td>{{ item.message }}</td>
+                        
                             <a href="{{ url_for('edit', item_id=item_key) }}"><input type="submit" class="btn btn-sm btn-success" value="Edit"></a>
                             <a href="{{ url_for('delete', item_id=item_key) }}"><input type="submit" class="btn btn-sm btn-danger" value="Delete"></a>
                        </td>
