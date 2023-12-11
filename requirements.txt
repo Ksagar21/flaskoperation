@@ -1,0 +1,36 @@
+Group assignment - This will be due in week 11 with presentations in week 12
+
+Create an Information System for a selected domain of interest. 
+
+You may use any back-end, including a DB developed in another module. 
+
+Please develop using an API/web frontend
+
+
+Describe the requirements of the information system, including users, data requirements, search, sorting, entry, update, validation, integrity, reporting etc.
+
+Implement and test the Information System, and document your implementation thoroughly.
+
+Documentation MUST be developed in Google Docs, with the document shared as EDITOR with paul.laird@dbs.ie
+
+
+GitHub/GitLab MUST be used for this project to develop the artefact, and any code or material uploaded as a fait accompli will not be credited. Furthermore, any such code not attributed or presented contrary to its originating licence will be the subject of Academic Impropriety investigations. Look at github.dev.
+Git will also be used to verify engagement and contribution, and failure to engage will result in a zero grade.
+Google Docs will allow the collaborative development of the docs, and engagement in this will also be taken into account.
+You must attribute all code not written from scratch, either in accordance with its licence, if applicable, or if not, #taken from ...  failure to do so will result in a zero grade. A summary of code attributions must be included at the end of the documentation
+
+You may use any programming language, however example programs will be presented in Python, with some front-end JS. Those not using Python/JS must explain the rationale for their decision
+
+There will be a presentation at the end of the Semester, with the Moderator present or sent recordings, in order to assist in grading the work
+
+Technical questions may be asked of any member of the group, and the assignment is individually marked. The contribution reports and Git record may be used to direct questions and to allocate marks.
+
+The group report, containing individual contribution reports and a link to public Git repository. The repository should be downloaded as a zip and submitted to Moodle, along with submitting the report in the separate second file submission slot, having downloaded from Google as pdf.
+
+All individuals must submit a reflective report in the online text place in Moodle, on their experience of the group, assignment, and module.
+
+Implementation: 40%
+
+Documentation: 20%
+
+Presentation: 40%
