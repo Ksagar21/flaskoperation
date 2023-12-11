@@ -55,17 +55,17 @@ def logout():
 def form():
     if request.method == 'POST':
         name = request.form.get("name")
-        admission_number = request.form.get("dmission_number")
-        task = request.form.get("task")
-        date = request.form.get("date")
-        status = request.form.get("status")
+        email = request.form.get("email")
+        subject = request.form.get("subject")
+        message = request.form.get("message")
+       
 
         new_item = {
             "name": name,
-            "admission_number": admission_number,
-            "task": task,
-            "date": date,
-            "status": status
+            "email": email,
+            "subject": subject,
+            "message": message,
+            
         }
 
         db.child("items").push(new_item)
@@ -88,17 +88,17 @@ def edit(item_id):
 
     elif request.method == 'POST':
         name = request.form.get("name")
-        admission_number = request.form.get("admission_number")
-        task = request.form.get("task")
-        date = request.form.get("date")
-        status = request.form.get("status")
+        email = request.form.get("email")
+        subject = request.form.get("subject")
+        message = request.form.get("message")
+        
 
         updated_item = {
             "name": name,
-            "admission_number": admission_number,
-            "task": task,
-            "date": date,
-            "status": status
+            "email": email,
+            "subject": subject,
+            "message": message,
+           
         }
         
         db.child('items').child(item_id).update(updated_item)
